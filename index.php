@@ -15,7 +15,7 @@ if(isset($_GET['img'])){
 <html>
 <head></head>
 <body>
-<a-scene><a-sky src="{$img}"><a-animation attribute="rotation" fill="forwards" easing="linear" dur="200000" from="0 {$angle} 0" to="0 {$angleLast} 0" repeat="indefinite"></a-animation></a-sky></a-scene><sc' + 'ript src="https://aframe.io/releases/0.7.0/aframe.min.js"></' + 'script>');
+<a-scene><a-sky src="{$img}"><a-animation attribute="rotation" fill="forwards" easing="linear" dur="200000" from="0 {$angle} 0" to="0 {$angleLast} 0" repeat="indefinite"></a-animation></a-sky></a-scene><script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>;
 </body>
 </html>
 EOT;
