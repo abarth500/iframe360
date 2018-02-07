@@ -2,9 +2,9 @@
 if(isset($_GET['img'])){
 	$img = $_GET['img'];
     $angle = 0;
-    $andleLast = 360;
+    $angleLast = 360;
 	if(isset($_GET['angle'])){
-        $angle = $_GET['angle'];
+        $angle = intval($_GET['angle']);
         $angleLast = $angle + 360;
     }
     $text = "";
