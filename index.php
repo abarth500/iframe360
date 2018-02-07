@@ -20,5 +20,7 @@ if(isset($_REQUEST['img'])){
 </html>
 EOT;
 echo $bar
+}else{
+    echo "hello";
 }
 ?>
