@@ -23,10 +23,6 @@ html, body {
   height: 100%;
 }
 
-body {
-  margin: 0;
-}
-
 /**************
 ## Container ##
 **************/
@@ -194,13 +190,13 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   .pure-drawer {
-    width: 300px;
+    width: 70vh;
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   .pure-drawer {
-    width: 300px;
+    width: 50vh;
   }
 }
 
@@ -274,13 +270,13 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'] {
-    left: 300px;
+    left: 70vh;
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'] {
-    left: 300px;
+    left: 50vh;
   }
 }
 
@@ -290,13 +286,13 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   .pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'] {
-    right: 300px;
+    right: 70vh;
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   .pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'] {
-    right: 300px;
+    right: 50vh;
   }
 }
 
@@ -334,13 +330,13 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   .no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    left: 300px;
+    left: 70vh;
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   .no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    left: 300px;
+    left: 50vh;
   }
 }
 
@@ -350,13 +346,13 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   .no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    left: -300px;
+    left: -70vh;
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   .no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    left: -300px;
+    left: -50vh;
   }
 }
 
@@ -435,15 +431,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-reveal'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(70vh, 0, 0);
+    transform: translate3d(70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-reveal'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(50vh, 0, 0);
+    transform: translate3d(50vh, 0, 0);
   }
 }
 
@@ -454,15 +450,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-reveal'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-70vh, 0, 0);
+    transform: translate3d(-70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-reveal'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-50vh, 0, 0);
+    transform: translate3d(-50vh, 0, 0);
   }
 }
 
@@ -534,15 +530,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-slideAlong'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(70vh, 0, 0);
+    transform: translate3d(70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-slideAlong'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(50vh, 0, 0);
+    transform: translate3d(50vh, 0, 0);
   }
 }
 
@@ -553,15 +549,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-slideAlong'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-70vh, 0, 0);
+    transform: translate3d(-70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-slideAlong'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-50vh, 0, 0);
+    transform: translate3d(-50vh, 0, 0);
   }
 }
 
@@ -633,15 +629,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-reverseSlide'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(70vh, 0, 0);
+    transform: translate3d(70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-reverseSlide'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(50vh, 0, 0);
+    transform: translate3d(50vh, 0, 0);
   }
 }
 
@@ -652,15 +648,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-reverseSlide'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-70vh, 0, 0);
+    transform: translate3d(-70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-reverseSlide'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-50vh, 0, 0);
+    transform: translate3d(-50vh, 0, 0);
   }
 }
 
@@ -793,15 +789,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-drawer[data-position='left'] {
-    -webkit-transform: translate3d(0, 0, -300px);
-    transform: translate3d(0, 0, -300px);
+    -webkit-transform: translate3d(0, 0, -70vh);
+    transform: translate3d(0, 0, -70vh);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-drawer[data-position='left'] {
-    -webkit-transform: translate3d(0, 0, -300px);
-    transform: translate3d(0, 0, -300px);
+    -webkit-transform: translate3d(0, 0, -50vh);
+    transform: translate3d(0, 0, -50vh);
   }
 }
 
@@ -812,15 +808,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-drawer[data-position='right'] {
-    -webkit-transform: translate3d(300px, 0, -300px);
-    transform: translate3d(300px, 0, -300px);
+    -webkit-transform: translate3d(70vh, 0, -70vh);
+    transform: translate3d(70vh, 0, -70vh);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-drawer[data-position='right'] {
-    -webkit-transform: translate3d(300px, 0, -300px);
-    transform: translate3d(300px, 0, -300px);
+    -webkit-transform: translate3d(50vh, 0, -50vh);
+    transform: translate3d(50vh, 0, -50vh);
   }
 }
 
@@ -863,15 +859,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(70vh, 0, 0);
+    transform: translate3d(70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(50vh, 0, 0);
+    transform: translate3d(50vh, 0, 0);
   }
 }
 
@@ -882,15 +878,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-70vh, 0, 0);
+    transform: translate3d(-70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-scaleUp'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-50vh, 0, 0);
+    transform: translate3d(-50vh, 0, 0);
   }
 }
 
@@ -1025,15 +1021,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-fall'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(70vh, 0, 0);
+    transform: translate3d(70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-fall'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(50vh, 0, 0);
+    transform: translate3d(50vh, 0, 0);
   }
 }
 
@@ -1044,15 +1040,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-fall'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-70vh, 0, 0);
+    transform: translate3d(-70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-fall'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-50vh, 0, 0);
+    transform: translate3d(-50vh, 0, 0);
   }
 }
 
@@ -1124,15 +1120,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-push'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(70vh, 0, 0);
+    transform: translate3d(70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-push'] .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(50vh, 0, 0);
+    transform: translate3d(50vh, 0, 0);
   }
 }
 
@@ -1143,15 +1139,15 @@ body {
 
 @media only screen and (min-width: 40.063em) {
   [data-effect='pure-effect-push'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-70vh, 0, 0);
+    transform: translate3d(-70vh, 0, 0);
   }
 }
 
 @media only screen and (min-width: 64.063em) {
   [data-effect='pure-effect-push'] .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {
-    -webkit-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
+    -webkit-transform: translate3d(-50vh, 0, 0);
+    transform: translate3d(-50vh, 0, 0);
   }
 }
 
